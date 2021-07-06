@@ -1,0 +1,32 @@
+.navbar__body
+{
+  background-color: #3867d6;
+  padding: 5px 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-around;
+}
+.brand
+{
+  font-family: 'jokerman', sans-serif;
+  color: aliceblue;
+  font-size: 3rem;
+  border: dashed;
+  padding: 2%;
+  border-radius: 80%;
+  border-color:honeydew;
+}
+a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+.h3__nav_items{
+  font-size: 2rem;
+  font-family: "Arial Rounded MT Bold", "Calibri";
+  margin-bottom: 1px;
+}
+.h3__nav_items:hover
+{
+  border-bottom: solid 4px;
+}

@@ -1,0 +1,79 @@
+.card__body
+{
+    display: flex;
+    flex-direction: row;
+}
+.date
+{
+    text-align: center;
+    color: gray;
+    font-size: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card__child__left
+{
+    margin: 2%;
+    padding: 5%;
+    width: 35%; 
+    border-right: solid;
+    border-color: gray;
+}
+.card__child__left__item
+{
+    text-align: center;
+    border-bottom: solid;
+    border-width: 70%;
+    border-radius: 40px;
+    padding: 3%;
+    border-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.card__child__left__item:hover
+{
+    box-shadow: 0 5px 8px 0 gray;
+}
+
+.card__child__right
+{
+    font-family: "Franklin Gothic Medium Cond", "arial";
+    width: 80%; 
+}
+.card__child__right__item
+{
+    text-align: center;
+    padding: 10%;
+    box-shadow: 0 4px 8PX 0 gray; 
+}
+.Loan_Title
+{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.welcome_h
+{
+    font-family: cursive;
+    font-size: 3rem;
+}
+.welcome_p
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    color: gray;
+}
+.apply_button
+{
+    padding: 3%;
+    background-color: rgb(226, 226, 226);
+    border: solid #3867d6;
+    border-radius: 80px;
+    font-family: Arial Black;
+    margin: 10px 3px 20px;
+    font-size: 2rem;
+}
+.apply_button:hover
+{
+    background-color: #3867d6;
+    border-color: white;
+}

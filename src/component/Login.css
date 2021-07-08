@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
-* {
+/* * {
 	box-sizing: border-box;
-}
+} */
 
-body {
+.body {
+	box-sizing: border-box;
 	background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
 	background-color: #fcf8f7;
 	display: flex;
@@ -16,16 +17,23 @@ body {
 	margin: -20px 0 50px;
 }
 
-h1 {
+.login__h1 {
 	font-weight: bold;
 	margin: 0;
 }
 
-h2 {
+.login__h2__Title
+{
+	text-align: center;
+	font-size: 3rem;
+	font-family: "Arial Black";
+}
+
+.login__h2 {
 	text-align: center;
 }
 
-p {
+.login__p {
 	font-size: 14px;
 	font-weight: 100;
 	line-height: 20px;
@@ -33,18 +41,18 @@ p {
 	margin: 20px 0 30px;
 }
 
-span {
+.login__span {
 	font-size: 12px;
 }
 
-a {
+.login__a {
 	color: #333;
 	font-size: 14px;
 	text-decoration: none;
 	margin: 15px 0;
 }
 
-button {
+button, .login__button {
 	border-radius: 20px;
 	border: 1px solid #1abc9c;
 	background-color: #16a085;
@@ -73,7 +81,8 @@ button.ghost {
 	border-color: #FFFFFF;
 }
 
-form {
+.login__form {
+	box-sizing: border-box;
 	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;
@@ -84,7 +93,7 @@ form {
 	text-align: center;
 }
 
-input {
+.login__input {
 	background-color: #eee;
 	border: none;
 	padding: 12px 15px;
@@ -93,9 +102,10 @@ input {
 }
 
 .container {
+	box-sizing: border-box;
 	background-color: #fff;
 	border-radius: 10px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
 	0 10px 10px rgba(0,0,0,0.22);
 	position: relative;
 	overflow: hidden;
@@ -105,6 +115,7 @@ input {
 }
 
 .form-container {
+	box-sizing: border-box;
 	position: absolute;
 	top: 0;
 	height: 100%;
@@ -112,16 +123,19 @@ input {
 }
 
 .sign-in-container {
+	box-sizing: border-box;
 	left: 0;
 	width: 50%;
 	z-index: 2;
 }
 
 .container.right-panel-active .sign-in-container {
+	box-sizing: border-box;
 	transform: translateX(100%);
 }
 
 .sign-up-container {
+	box-sizing: border-box;
 	left: 0;
 	width: 50%;
 	opacity: 0;
@@ -129,6 +143,7 @@ input {
 }
 
 .container.right-panel-active .sign-up-container {
+	box-sizing: border-box;
 	transform: translateX(100%);
 	opacity: 1;
 	z-index: 5;
@@ -148,6 +163,7 @@ input {
 }
 
 .overlay-container {
+	box-sizing: border-box;
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -159,10 +175,12 @@ input {
 }
 
 .container.right-panel-active .overlay-container{
+	box-sizing: border-box;
 	transform: translateX(-100%);
 }
 
 .overlay {
+	box-sizing: border-box;
 	background: -webkit-linear-gradient(to right, #3498db, #2980b9);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -177,6 +195,7 @@ input {
 }
 .overlay_img
 {
+	box-sizing: border-box;
 	position: absolute;
 	background-size: cover;
 	width: 100%;
@@ -184,10 +203,12 @@ input {
 }
 
 .container.right-panel-active .overlay {
+	box-sizing: border-box;
   	transform: translateX(50%);
 }
 
 .overlay-panel {
+	box-sizing: border-box;
 	position: absolute;
 	display: flex;
 	align-items: center;
@@ -224,6 +245,7 @@ input {
 }
 
 .social-container a {
+	box-sizing: border-box;
 	border: 1px solid #DDDDDD;
 	border-radius: 50%;
 	display: inline-flex;
@@ -234,7 +256,8 @@ input {
 	width: 40px;
 }
 
-footer {
+.login__footer {
+	box-sizing: border-box;
     background-color: #222;
     color: #fff;
     font-size: 14px;
@@ -246,15 +269,18 @@ footer {
     z-index: 999;
 }
 
-footer p {
+.login__footer p {
+	box-sizing: border-box;
     margin: 10px 0;
 }
 
-footer i {
-    color: red;
+ i {
+	box-sizing: border-box;
+    color: black;
 }
 
-footer a {
-    color: #3c97bf;
+ a {
+	box-sizing: border-box;
+	color: #222;
     text-decoration: none;
 }

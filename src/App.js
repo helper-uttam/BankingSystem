@@ -9,7 +9,7 @@ let formData = {};
 
 async function addBankUserData()
 {
-  const response = await fetch('https://banking-system-f90d0-default-rtdb.firebaseio.com/formData.json', {
+  const response = await fetch(//'___Put Your's connection URL______/ formData.json', {
   method: "POST",
   body: JSON.stringify(formData),
   headers: {

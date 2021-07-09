@@ -1,0 +1,43 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Calibri';
+    flex-direction: column;
+    padding: 5%;
+    margin: 50px 0;
+}
+.balance
+{
+    font-size: 1.2rem;
+    border-bottom: solid black;
+    text-align: center;
+}
+.balance > h2
+{
+    color: tomato;
+    text-decoration: underline;
+}
+.balance > p
+{
+    color: blue;
+}
+.transaction
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+th
+{
+    color: #2980b9;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+td
+{
+    border-right: solid 3px #bdc3c7;
+    font-size: 1.2rem;
+    line-height: 2;
+    padding: 5%;
+}

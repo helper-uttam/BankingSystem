@@ -3,6 +3,11 @@
     display: flex;
     flex-direction: row;
 }
+.flex_row
+{
+    display: flex;
+    justify-content: center;
+}
 .date
 {
     text-align: center;

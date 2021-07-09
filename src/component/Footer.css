@@ -7,6 +7,7 @@
     justify-content: space-between;
     font-size: 1.4rem;
     padding: 3%;
+    text-align: center;
 }
 .footer__title
 {
@@ -31,4 +32,22 @@
 .last__paragraph
 {
     font-size: larger;
+}
+b{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+.footer__content_1
+{
+    padding: 5%;
+    border-right: solid gray;
+}
+.footer__content_2
+{
+    padding: 5% 0 5% 5%;
 }

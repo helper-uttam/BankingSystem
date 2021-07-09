@@ -18,9 +18,9 @@ function Footer()
             <div className="footer__content_2">
                 <b>Contributors</b>
                 <a href="https://secret-sands-99654.herokuapp.com/" target="_blank"><p className="content__1">Uttam</p></a> 
-                <a href="www.google.com" target="_blank"><p className="content__1">Aman</p></a> 
+                <a href="https://www.linkedin.com/in/aman-kumar-3b99b31b9/" target="_blank"><p className="content__1">Aman</p></a> 
                 <a href="www.google.com" target="_blank"><p className="content__1">Kunal</p></a> 
-                <a href="www.google.com" target="_blank"><p className="content__1">Amit</p></a> 
+                <a href="https://www.linkedin.com/in/amit-kumar-7863b71ba/" target="_blank"><p className="content__1">Amit</p></a> 
             </div>
         </section>
         <section className="second__section__body">

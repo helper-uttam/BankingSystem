@@ -10,6 +10,8 @@ In the project directory, you can run:
 To run this app one must have node installed on his computer which comes with npm(node package manager).
 To check if npm is installed or not run `npm -v`
 
+if it not lists any version, then perhaps you need to install NodeJs first before proceeding. To download nodeJS visit this link and download the latest version https://nodejs.org/en/
+
 
 
 After making sure that node is installed, run
